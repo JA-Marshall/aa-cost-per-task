@@ -65,21 +65,9 @@ Three of the ten models have no high-effort run, so they are striped and shown a
 - **This doesn't show Claude is cheap.** GPT-6.1 Sol is far cheaper at every setting, and Claude Fable 5.1 is the most expensive model at high too. On the two longest evals at high, GPT-6 Astra is 21 to 24% cheaper than Opus 5.5.
 - **Cost per task is a blend.** It is a weighted average across ten evals, so it is not the cost of any single task.
 
-## My own numbers
-
-My code-review benchmark runs each vendor's tool on the same 52 code changes at high effort.
-
-| | Mean input tokens per review | Median seconds |
-|---|---|---|
-| Claude Code, Opus 5.5 | 158k | 27 |
-| Claude Code, Sonnet 5.5 | 120k | 17 |
-| Codex, GPT-5.6 Sol | 249k | 82 |
-
-These are short reviews and an older OpenAI model, so they are only indicative. At high effort, Claude was not the token-hungry option.
-
 ## Data
 
-Every figure outside "My own numbers" is Artificial Analysis's, read on 30 September 2026 from the data embedded in its pages. To pull it again:
+Every figure here is Artificial Analysis's, read on 30 September 2026 from the data embedded in its pages. To pull it again:
 
 ```bash
 python3 extract.py
