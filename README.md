@@ -1,6 +1,6 @@
 # Artificial Analysis's Cost per Task chart mixes effort settings
 
-The Cost per Task chart on the [Artificial Analysis](https://artificialanalysis.ai/) front page shows most models at max effort and a few at high or xhigh. It doesn't say which.
+The Cost per Task chart on the [Artificial Analysis](https://artificialanalysis.ai/) front page shows each model at a different effort setting: most at max, a few at high or xhigh. The setting appears only as a suffix in the small rotated label under each bar.
 
 The same two models, from their own data:
 
@@ -24,8 +24,12 @@ Opus 5.5 and GPT-6 Astra are only published there at max.
 
 ## Fix
 
-- Label the effort setting on every bar.
-- Default every model to the same setting.
+- Default every model to the same effort setting.
+- Make the setting a visible control, not a suffix in the bar label.
+
+A mock-up of the Highlights row with everything at high, using the published high-effort figures:
+
+![Mock-up of the front-page Highlights row with an effort selector set to high](charts/front-page-mockup.png)
 
 ## My own numbers
 
