@@ -1,0 +1,35 @@
+slug,name,effort,index_score,cost_per_task_usd,cache_hit_usd,cache_write_usd,uncached_input_usd,reasoning_usd,answer_usd,cost_to_run_index_usd,input_tokens,output_tokens,terminal_bench_4_pass_rate,terminal_bench_4_cost_per_task_usd
+claude-fable-5-1,Claude Fable 5.1 (max with fallback),max,53.4,7.63,1.603,1.865,0.259,2.36,1.543,13129,5630485614,188465663,0.5202,19.22
+claude-fable-5-1-high,Claude Fable 5.1 (high with fallback),high,51.2,3.913,0.701,1.054,0.256,0.93,0.971,5242,2443935298,61994670,0.5202,11.64
+claude-fable-5-1-low,Claude Fable 5.1 (low with fallback),low,46.8,2.371,0.371,0.668,0.256,0.414,0.662,3158,1338003902,32508373,0.404,7.32
+claude-fable-5-1-medium,Claude Fable 5.1 (medium with fallback),medium,48.9,2.983,0.502,0.831,0.256,0.603,0.79,3983,1766972607,44205040,0.4495,9.12
+claude-fable-5-1-xhigh,Claude Fable 5.1 (xhigh with fallback),xhigh,53.2,5.978,1.195,1.506,0.257,1.701,1.319,9063,4193251074,120524006,0.5505,15.78
+claude-opus-5-5,Claude Opus 5.5 (max with fallback),max,57.6,5.982,2.424,1.071,0.103,1.679,0.705,8708,10978320412,259888331,0.596,13.11
+claude-opus-5-5-high,Claude Opus 5.5 (high with fallback),high,53.6,1.823,0.604,0.404,0.103,0.365,0.347,2172,2619403169,52515439,0.5657,5.12
+claude-opus-5-5-low,Claude Opus 5.5 (low with fallback),low,42.3,0.551,0.12,0.126,0.103,0.068,0.136,860,661774688,19566522,0.3131,2.08
+claude-opus-5-5-medium,Claude Opus 5.5 (medium with fallback),medium,51.2,1.336,0.41,0.309,0.103,0.234,0.281,1627,1798544497,38156195,0.5253,4.04
+claude-opus-5-5-xhigh,Claude Opus 5.5 (xhigh with fallback),xhigh,56.0,3.459,1.369,0.673,0.103,0.806,0.507,4057,5958172789,99668308,0.596,8.78
+claude-sonnet-5-5,Claude Sonnet 5.5 (max with fallback),max,56.0,7.603,4.411,1.212,0.052,1.424,0.505,8977,18536411176,410577501,0.6364,18.76
+claude-sonnet-5-5-high,Claude Sonnet 5.5 (high with fallback),high,46.7,1.08,0.467,0.217,0.051,0.182,0.163,1176,1963552783,49509779,0.4394,3.06
+claude-sonnet-5-5-medium,Claude Sonnet 5.5 (medium with fallback),medium,40.7,0.586,0.22,0.12,0.051,0.082,0.113,701,997504812,29490528,0.298,2.25
+claude-sonnet-5-5-xhigh,Claude Sonnet 5.5 (xhigh with fallback),xhigh,51.9,2.743,1.476,0.477,0.051,0.477,0.261,2738,5950268382,104142365,0.5707,8.87
+gemini-3-8-flash,Gemini 3.8 Flash (high),high,40.9,1.243,0.406,0.559,0.011,0.16,0.106,1623,5973510492,172228415,0.197,5.84
+gemini-3-8-flash-medium,Gemini 3.8 Flash (medium),medium,39.8,0.931,0.301,0.421,0.011,0.101,0.096,1100,4479285812,95032920,0.197,4.61
+gpt-6-1-sol,GPT-6.1 Sol (max),max,51.8,0.724,0.123,0.177,0.043,0.252,0.129,1082,1383452045,67198855,0.5606,1.82
+gpt-6-1-sol-high,GPT-6.1 Sol (high),high,50.2,0.319,0.054,0.09,0.043,0.057,0.075,521,782097221,25376903,0.5152,0.83
+gpt-6-1-sol-low,GPT-6.1 Sol (low),low,42.1,0.131,0.016,0.033,0.043,0.012,0.028,250,369938580,9014298,0.3081,0.38
+gpt-6-1-sol-medium,GPT-6.1 Sol (medium),medium,47.8,0.214,0.032,0.058,0.043,0.029,0.052,361,546325961,15265677,0.4798,0.61
+gpt-6-1-sol-xhigh,GPT-6.1 Sol (xhigh),xhigh,51.0,0.393,0.068,0.105,0.043,0.091,0.085,662,934466155,36005814,0.5404,1.03
+gpt-6-astra,GPT-6 Astra (max),max,52.7,3.258,0.981,0.701,0.215,0.835,0.526,5324,1172335977,60007725,0.5909,8.5
+gpt-6-astra-high,GPT-6 Astra (high),high,50.9,1.725,0.504,0.414,0.217,0.236,0.355,2925,742163538,26227128,0.5404,4.05
+gpt-6-astra-low,GPT-6 Astra (low),low,45.8,0.818,0.185,0.194,0.217,0.047,0.175,1537,410696631,9994716,0.4192,2.25
+gpt-6-astra-medium,GPT-6 Astra (medium),medium,49.6,1.541,0.48,0.364,0.217,0.171,0.308,2434,689951701,18913587,0.4949,4.43
+gpt-6-astra-xhigh,GPT-6 Astra (xhigh),xhigh,52.4,2.309,0.724,0.523,0.217,0.429,0.416,3803,934379760,37901142,0.596,5.86
+gpt-6-sol,GPT-6 Sol (max),max,47.5,1.049,0.51,0.186,0.043,0.209,0.102,1546,2536364006,76830166,0.4394,4.0
+gpt-6-sol-high,GPT-6 Sol (high),high,42.8,0.375,0.151,0.078,0.043,0.05,0.053,610,937539291,25336347,0.2626,1.6
+gpt-6-sol-low,GPT-6 Sol (low),low,33.9,0.133,0.03,0.026,0.043,0.007,0.027,268,338159270,8915917,0.0909,0.49
+gpt-6-sol-medium,GPT-6 Sol (medium),medium,39.8,0.247,0.088,0.052,0.043,0.023,0.041,416,597076339,15770352,0.1869,1.12
+gpt-6-sol-non-reasoning,GPT-6 Sol (Non-reasoning),,28.1,0.333,0.179,0.062,0.043,0,0.05,449,1099106351,8314486,0.1313,1.94
+gpt-6-sol-xhigh,GPT-6 Sol (xhigh),xhigh,44.1,0.524,0.215,0.107,0.043,0.092,0.066,860,1287925073,40259947,0.303,1.91
+grok-4-7,Grok 4.7 (xhigh),xhigh,46.4,3.738,1.533,1.689,0.033,0.351,0.132,4967,4188838973,240410045,0.2576,14.6
+grok-4-7-high,Grok 4.7 (high),high,46.3,2.726,1.08,1.218,0.033,0.28,0.116,3881,3169053487,197670478,0.2475,8.95

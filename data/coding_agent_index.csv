@@ -1,0 +1,22 @@
+agent_and_model,effort,index_score,cost_per_task_usd,wall_time_min,steps,input_tokens,output_tokens,cache_hit_rate
+Claude Code - Sonnet 5.5 (max),max,68.4,14.19,87.4,266,27141369,600968,0.951
+Claude Code - Opus 5.5 (max),max,66.0,13.04,64.5,155,15218206,333177,0.95
+Codex - GPT-6.1 Sol (xhigh),xhigh,62.9,1.04,15.5,40,3177125,35403,0.933
+Claude Code - Sonnet 5.5 (xhigh),xhigh,62.9,3.33,27.0,78,6961982,125696,0.957
+Claude Code - Fable 5.1 (max) (with fallback),max,62.2,12.39,34.8,37,5581622,133632,0.916
+Codex - GPT-6 Astra (max),max,61.6,7.47,29.4,39,3299550,47061,0.934
+Codex - GPT-6.1 Sol (medium),medium,61.4,0.7,10.9,38,2275867,22412,0.924
+Codex - GPT-6.1 Sol (high),high,60.1,0.89,13.3,39,2791163,28749,0.928
+Codex - GPT-6.1 Sol (max),max,60.1,1.55,24.4,40,3937843,61659,0.928
+Claude Code - Opus 5 (max),max,59.7,10.79,41.9,152,11238194,136656,0.97
+Codex - GPT-6.1 Sol (low),low,57.2,0.5,8.6,36,1699124,14695,0.914
+Codex - GPT-6 Sol (max),max,56.7,2.99,22.3,87,9778602,62176,0.964
+Claude Code - Sonnet 5.5 (high),high,55.0,1.24,12.3,37,2610884,41496,0.948
+Codex - GPT-5.6 Sol (max),max,54.6,6.35,20.6,116,10120981,49155,0.946
+Claude Code - Sonnet 5.5 (medium),medium,45.9,0.62,8.5,22,1232831,20521,0.934
+Claude Code - Qwen3.8 Max,,43.3,3.48,63.1,110,8600561,106333,0.951
+Codex - GPT-5.6 Luna (max),max,43.2,0.44,23.5,122,14783220,71305,0.972
+Codex - DeepSeek V4 Pro 0813 (max),max,43.1,0.24,40.3,138,24063626,116482,0.99
+Claude Code - Sonnet 5.5 (low),low,42.1,0.48,6.3,19,961481,15804,0.931
+Codex - GPT-6 Luna (max),max,41.1,0.18,21.4,89,10119728,98341,0.961
+Codex - DeepSeek V4 Flash 0731 (max),max,38.7,0.09,18.3,122,15269826,80399,0.987
